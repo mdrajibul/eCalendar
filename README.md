@@ -1,5 +1,5 @@
 
-# mface-ui-library
+# eCalendar
 
 A [jQuery](https://github.com/mdrajibul/eCalendar) base event calendar 
 
