@@ -1,0 +1,115 @@
+#cl-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.info {
+    background: url("info.png") no-repeat scroll left center transparent;
+}
+
+.bor {
+    border-right: 1px solid #999;
+}
+
+.bob {
+    border-bottom: 1px solid #999;
+}
+
+.clb {
+    clear: both;
+}
+
+.cl-monthTitle {
+    font-size: 14px;
+    text-align: center;
+}
+
+.cl-controlPanel {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.ctl-select {
+    border: 1px solid #999;
+    width: 49%;
+    outline: 0 none;
+    margin-left: 1%;
+}
+.ctl-select:first-child{
+    margin-left:0;
+    margin-right:1%;
+}
+
+.cl-weekTitle, .cl-weekNo {
+    margin-top: 4px;
+    clear: both;
+    word-spacing: -4px;
+    letter-spacing: -4px;
+}
+
+.cl-weekNo {
+    margin-top: 0;
+}
+
+.cl-body {
+    text-align: center;
+}
+
+.week-cell {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 13%;
+    height: 20px;
+    text-align: center;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    cursor: pointer;
+    vertical-align: top;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+
+.week-cell:hover, .cl-weekNo .active, .cl-weekNo .info {
+    background-color: #cccccc;
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+}
+
+.cl-weekNo .info {
+    background-color: #00ff66;
+    color: #FFF;
+}
+
+.cl-switchPanel {
+    padding: 5px;
+    position:relative;
+}
+
+.ctl-next, .ctl-previous {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    cursor: pointer;
+    vertical-align: top;
+    width: 50%;
+    text-decoration: underline;
+}
+
+.ctl-next {
+    text-align: right;
+    position:absolute;
+    right:5px;
+    top:5px;
+}
+
+.cl-tooltip {
+    position: absolute;
+    border: 1px solid #999;
+    background: #ccc;
+    padding: 4px 6px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
